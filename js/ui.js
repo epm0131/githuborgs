@@ -10,6 +10,8 @@
 
     $('ul')
           .append('<li></li>')
+          .get('avatar.url')
+          console.log('.get');
 
 
   }
