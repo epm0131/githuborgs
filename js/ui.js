@@ -1,6 +1,18 @@
 (function() {
   'use strict';
-  window.fee = window.fee || {};
+  window.gitHubOrg = window.gitHubOrg || {};
+
+
+
+
+  window.gitHubOrg.createLi = function createLi(data) {
+    console.log('hello', data);
+
+    $('ul')
+          .append('<li></li>')
+
+
+  }
 
 
 
